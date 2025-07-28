@@ -1,0 +1,7 @@
+SELECT 
+  job, ---키값
+  ORA_HASH(job,9) AS bucket,---버킷번호
+  COUNT(*) AS job_count----밸류값
+FROM emp
+GROUP BY job
+ORDER BY bucket, job;
