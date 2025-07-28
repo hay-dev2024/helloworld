@@ -1,6 +1,13 @@
 # hello world
 
 # 개발자 소개
+|제목|내용|설명|
+|------|---|---|
+|이름|신짱구|5살이다|
+|기술|Frontend|html, css, js, kotlin|
+|    |Backend|django, flask|
+|    |Database|Oracle|
+
 # 작품 1 - django framework 활용 게시판 만들기
 ### 설계도
 <img src="arch.jpg" />
